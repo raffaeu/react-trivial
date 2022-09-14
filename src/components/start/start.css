@@ -1,0 +1,26 @@
+.start span {
+    font-size: 24px;
+    padding-top: 12px;
+}
+
+.start .body {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.start button {
+    background-color: white;
+    border: 3px solid brown;
+    border-radius: 10px;
+    color: brown;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 200px;
+}
+
+.start button:hover {
+    background-color: lightcoral;
+}
