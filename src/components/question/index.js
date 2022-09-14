@@ -8,8 +8,6 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from "react-redux";
 
 import './question.css';
-import { addAnswer } from '../../store/reducers/answersReducer';
-import { A } from 'caniuse-lite/data/agents';
 
 const Question = () => {
 
